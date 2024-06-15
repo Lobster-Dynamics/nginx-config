@@ -58,6 +58,7 @@ sudo systemctl status nginx
 
 10. Add sites-available to sites-enabled
 ```bash
+sudo mkdir /etc/nginx/sites-enabled
 sudo ln -s /etc/nginx/sites-available/* /etc/nginx/sites-enabled
 ```
 
