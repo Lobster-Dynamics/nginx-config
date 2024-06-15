@@ -34,6 +34,7 @@ sudo iptables -I OUTPUT -p tcp --sport 443 -m conntrack --ctstate ESTABLISHED -j
 ```
 
 6. Install Nginx server string in the HTTP header
+
 Note: Tested in Ubuntu 22.04, not sure if it's available in other distros
 ```bash
 sudo apt install libnginx-mod-http-headers-more-filter
